@@ -9,7 +9,7 @@ name_set = set()  # initializing empty set and empty dict
 name_dict = {}
 
 i = 2  # starting row
-while i != 3448:  # how far down the rows to go
+while i != 100:  # how far down the rows to go final value is: 3448
     name = sheet_name['C' + str(i)].value
     response = sheet_name['D' + str(i)].value
 
