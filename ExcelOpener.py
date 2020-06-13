@@ -37,7 +37,7 @@ for index in name_keys:  # gets data associated with index
 # im = Image.open("6 Responses.png")  # How to open a image will pillow
 # im.show()
 
-image = Image.open("6 Responses.png")  # initialise the drawing context with the image object as background
+image = Image.open("Assets/6 Responses.png")  # initialise the drawing context with the image object as background
 draw = ImageDraw.Draw(image)
 (x, y) = (46, 124)
-font = ImageFont.truetype('DartmouthRuzickaGeneral/DartmouthRuzicka-Regular.ttf', size=45)
+font = ImageFont.truetype('fonts/DartmouthRuzickaGeneral/DartmouthRuzicka-Regular.ttf', size=45)
