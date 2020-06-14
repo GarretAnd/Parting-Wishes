@@ -28,12 +28,12 @@ def letter_6(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 228)  # splits the messages into a text wrap so that it can fit into the box
-    lines2 = text_wrap(message[1], font, 228)
-    lines3 = text_wrap(message[2], font, 228)
-    lines4 = text_wrap(message[3], font, 228)
-    lines5 = text_wrap(message[4], font, 228)
-    lines6 = text_wrap(message[5], font, 228)
+    lines1 = text_wrap(str(message[0]), font, 228)  # splits the messages into a text wrap so that it can fit into the box
+    lines2 = text_wrap(str(message[1]), font, 228)
+    lines3 = text_wrap(str(message[2]), font, 228)
+    lines4 = text_wrap(str(message[3]), font, 228)
+    lines5 = text_wrap(str(message[4]), font, 228)
+    lines6 = text_wrap(str(message[5]), font, 228)
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -72,7 +72,6 @@ def letter_6(message, variable):
     source_image.paste(box_img4, (335, 341))
     source_image.paste(box_img5, (20, 559))
     source_image.paste(box_img6, (335, 559))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
@@ -101,11 +100,11 @@ def letter_5(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 228)  # splits the messages into a text wrap so that it can fit into the box
-    lines2 = text_wrap(message[1], font, 228)
-    lines3 = text_wrap(message[2], font, 228)
-    lines4 = text_wrap(message[3], font, 228)
-    lines5 = text_wrap(message[4], font, 228)
+    lines1 = text_wrap(str(message[0]), font, 228)  # splits the messages into a text wrap so that it can fit into the box
+    lines2 = text_wrap(str(message[1]), font, 228)
+    lines3 = text_wrap(str(message[2]), font, 228)
+    lines4 = text_wrap(str(message[3]), font, 228)
+    lines5 = text_wrap(str(message[4]), font, 228)
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -138,7 +137,6 @@ def letter_5(message, variable):
     source_image.paste(box_img3, (20, 341))
     source_image.paste(box_img4, (335, 341))
     source_image.paste(box_img5, (20, 559))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
@@ -164,10 +162,10 @@ def letter_4(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 228)  # splits the messages into a text wrap so that it can fit into the box
-    lines2 = text_wrap(message[1], font, 228)
-    lines3 = text_wrap(message[2], font, 228)
-    lines4 = text_wrap(message[3], font, 228)
+    lines1 = text_wrap(str(message[0]), font, 228)  # splits the messages into a text wrap so that it can fit into the box
+    lines2 = text_wrap(str(message[1]), font, 228)
+    lines3 = text_wrap(str(message[2]), font, 228)
+    lines4 = text_wrap(str(message[3]), font, 228)
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -194,7 +192,6 @@ def letter_4(message, variable):
     source_image.paste(box_img2, (335, 124))
     source_image.paste(box_img3, (20, 341))
     source_image.paste(box_img4, (20, 559))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
@@ -217,9 +214,9 @@ def letter_3(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 228)  # splits the messages into a text wrap so that it can fit into the box
-    lines2 = text_wrap(message[1], font, 228)
-    lines3 = text_wrap(message[2], font, 228)
+    lines1 = text_wrap(str(message[0]), font, 228)  # splits the messages into a text wrap so that it can fit into the box
+    lines2 = text_wrap(str(message[1]), font, 228)
+    lines3 = text_wrap(str(message[2]), font, 228)
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -240,7 +237,6 @@ def letter_3(message, variable):
     source_image.paste(box_img, (20, 124))
     source_image.paste(box_img2, (20, 341))
     source_image.paste(box_img3, (20, 559))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
@@ -260,8 +256,8 @@ def letter_2(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 228)  # splits the messages into a text wrap so that it can fit into the box
-    lines2 = text_wrap(message[1], font, 228)
+    lines1 = text_wrap(str(message[0]), font, 228)  # splits the messages into a text wrap so that it can fit into the box
+    lines2 = text_wrap(str(message[1]), font, 228)
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -276,7 +272,6 @@ def letter_2(message, variable):
 
     source_image.paste(box_img, (20, 150))
     source_image.paste(box_img2, (335, 150))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
@@ -293,7 +288,7 @@ def letter_1(message, variable):
 
     color = 'rgb(0, 0, 0)'  # black color for font
 
-    lines1 = text_wrap(message[0], font, 512)  # splits the messages into a text wrap so that it can fit into the box
+    lines1 = text_wrap(str(message), font, 512)  # splits the messages into a text wrap so that it can fit into the box
 
     x = 0  # initializes coordinates to paste text in box and resets y every time
     y = 0
@@ -302,20 +297,23 @@ def letter_1(message, variable):
         y = y + line_height
 
     source_image.paste(box_img, (50, 140))
-    source_image.show()
 
     variable = 'finalPDF/' + str(variable) + '.png'
     source_image.save(variable)
 
 
 # test call of functions
-mes = {
-    0: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
-    1: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
-    2: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
-    3: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
-    4: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
-    5: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in'}
+#mes = {
+#    0: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
+#    1: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
+#    2: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
+#    3: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
+#    4: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in',
+#    5: 'Omphalotus nidiformis, or ghost fungus, is a bioluminescent gilled mushroom that occurs primarily in southern Australia and Tasmania, and has been reported from India. The cream-coloured fan- or funnel-shaped caps, up to 30 cm (12 in) across, have shades of orange, brown, purple, or bluish-black. The white or cream gills run down the length of the stalk, which is up to 8 cm (3 in) long and tapers in thickness to the base. The fungus is both saprotrophic and parasitic, and its fruit bodies are generally found growing in overlapping clusters on a wide variety of dead or dying trees. First described scientifically in 1844, O. nidiformis (from Latin for ' + ') was known by several names before Orson K. Miller Jr. assigned its current name in 1994. Similar in'}
 
-letter_4(mes, 'letter6')
-
+#letter_6(mes, 'output0')
+#letter_5(mes, 'output1')
+#letter_4(mes, 'output2')
+#letter_3(mes, 'output3')
+#letter_2(mes, 'output4')
+#letter_1(mes, 'output5')

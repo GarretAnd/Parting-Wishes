@@ -1,7 +1,7 @@
 import openpyxl  # Imports the Library Needed to work with excel documents; column C (person) and D (data)
 from PIL import Image, ImageDraw, ImageFont  # Allows us to edit images
 
-file = "Parting Wishes file.xlsx"  # Opening the excel document
+file = "Data/Parting Wishes file.xlsx"  # Opening the excel document
 wb = openpyxl.load_workbook(file)  # and loading the worksheet I want
 sheet_name = wb['Form Responses 1']
 
