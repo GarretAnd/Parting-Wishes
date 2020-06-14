@@ -6,6 +6,7 @@ def letter_6(message, variable):
     font_size = 11
     source_image = Image.open("Assets/6 Responses.png").convert("RGBA")  # initialise the drawing with background + font
     font = ImageFont.truetype('fonts/DartmouthRuzickaGeneral/DartmouthRuzicka-Regular.ttf', size=font_size)
+
     line_height = font.getsize('hg')[1]
 
     box_img = Image.new('RGBA', (228, 197), "white")  # Makes our 6 white boxes to put text into

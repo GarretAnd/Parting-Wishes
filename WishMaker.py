@@ -47,7 +47,7 @@ for index in name_keys:  # gets data associated with index
     used_emails.add(email)
     item = name_dict[index]  # gets the set of data associated with the email and the size of it
     size = len(item)
-    end = size % 6  # Tells us what type of letter we need
+    end = size % 6
 
     if email == "Hana.C.Warmflash.20@dartmouth.edu":
         j = 0
