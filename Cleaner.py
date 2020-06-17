@@ -1,5 +1,5 @@
-import os
-import shutil
+import shutil  # All credits for this function goes to Nick Stinemates on stackoverflow
+import os  # Link can be found here https://stackoverflow.com/questions/185936/how-to-delete-the-contents-of-a-folder
 
 
 def deleter():
