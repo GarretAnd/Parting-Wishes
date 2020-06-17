@@ -1,4 +1,4 @@
-#Parting Wishes Program
+# Parting Wishes Program
 Code written by GarretAnd. Idea made in collaboration with Hana Warmflash, Mary Tobin, and Rebecca Wade.
 
 ## Purpose
@@ -22,7 +22,7 @@ throughout the script.
 
 When all is said and done you should be good to go to run it.
 
-##Running 
+## Running 
 While running you will have to be conscious of the emails. Google emails can only send up to 250 MB of data through 
 3rd party authorization. So you will have to swap emails at some time throughout the project. For running it during 20S
 4 different parting wishes emails were used. Since it will fail midway through sending, an exception is set up so that
@@ -30,7 +30,7 @@ the emails it had made it through are spit out, plug this data into the `sent_em
 program. Then switch the email and run it again. To use the gmail, always make sure access to less secure apps is disabled,
 so that you can remotely use them.
 
-##Summary
+## Summary
 Hopefully this program is used multiple times and iterated on to improve! The seniors that knew I did the program said they
 really liked it and it made a difference, so hopefully it can continue to do so! Crazy what code can do and how it can 
 affect the people around us :)
